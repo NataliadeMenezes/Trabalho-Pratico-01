@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp Full Stack</title>
+    <link rel="stylesheet" href="./css/style.css"> 
+    
+  </head>
+
+  <body>
+    <header>
+       
+        <div class="cabecalho">  
+          <img alt="some text" src="./img/logo.png"  width=150 height=150>
+          <h1><strong>Desenvolvedor Full Stack</strong> </h1>
+          <h2>Trabalho Prático do Módulo 1 - Fundamentos</h2> 
+          
+        </div>
+    </header>
+  
+      <main>
+        <div class="componente">
+          <h1 class="titulo">Seletor de Cores RGB</h1>
+          <div class="controle">
+
+            <label class="left" for="vermelho">(R) Vermelho:</label>
+            <div class="controle-range">
+              <input
+                class="range"
+                onchange="seletorColor()"
+                id="red"
+                type="range"
+                max="255"
+                step="1"
+                value="0"
+              />
+              <input id="valueRed" class="input-text" type="text" disabled />
+            </div>
+
+            <label class="left" for="verde">(G) Verde:</label>
+            <div class="controle-range">
+              <input
+                class="range"
+                onchange="seletorColor()"
+                id="green"
+                type="range"
+                max="255"
+                step="1"
+                value="0"
+              />
+              <input
+                id="valueGreen" class="input-text" type="text" disabled/>
+            </div>
+
+            <label class="left" for="azul">(B) Azul:</label>
+            <div class="controle-range">
+              <input
+                class="range"
+                onchange="seletorColor()"
+                id="blue"
+                type="range"
+                max="255"
+                step="1"
+                value="0"
+              />
+              <input
+                id="valueBlue" class="input-text" type="text" disabled/>
+            </div>
+
+          </div>
+
+          <div id="box" class="resultado">
+            <div id="title-box"><span id="code"></span></div>
+          </div>
+
+        </div>
+      </main>
+      <footer class="footer">
+        <p>Developed by <strong>Natalia de Menezes</strong></p><p>2020</p>
+        <div class="links">
+        <p><a href="https://github.com/NataliadeMenezes"><img src="./img/git.jpg" width=35 height=35></in></a></p>
+        <p><a href="https://www.linkedin.com/in/nataliademenezes"><img src="./img/lilogo.png" width=30 height=30></in></a></p>
+        </div>
+        
+    </footer> 
+
+    <script src="./js/script.js"></script>
+
+  </body>
+</html>

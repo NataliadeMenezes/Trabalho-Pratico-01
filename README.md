@@ -1,2 +1,26 @@
-# Trabalho-Pratico-01
- Trabalho Prático do Modulo 1 do Bootcamp Desenvolvedor(a) Full Stack na IGTI
+<h1 align="center">Bootcamp: Desenvolvedor Full Stack</h1>
+<h2 align="center">Trabalho Prático<h2>
+```Módulo 1 Fundamentos do Bootcamp```
+<h3>Objetivos</h3>
+<p>Exercitar os seguintes conceitos trabalhados no Módulo:
+-Utilização de elementos HTML.
+-Utilização de CSS.
+-Utilização de identificadores em elementos HTML.
+-Captura de referência de elementos com JavaScript.
+-Manipulação de eventos com JavaScript.
+-Utilização de funções com JavaScript e CSS.
+-Manipulação direta de CSS com JavaScript.</p>
+<h3>Enunciado</h3>
+<p>Construa, utilizando HTML, CSS e JavaScript puro, uma aplicação para a
+visualização de cores a partir da escala RGB.</p>
+<h3>Atividades</h3>
+<p>Os alunos deverão desempenhar as seguintes atividades:
+1. Implementar, através de HTML, CSS e JavaScript puro, uma aplicação que
+contenha três inputs do tipo “range”, cujos valores vão de 0 a 255 e representem,
+respectivamente, R (Red – Vermelho), G (Green – Verde) e B (Blue – Azul).
+2. Essa combinação de valores deve ser utilizada para preencher a cor de fundo de
+uma <div> quadrada. 
+3. Além disso, inclua três inputs de texto somente-leitura (desabilitados) para a
+visualização do valor atual de cada input do tipo range.
+4. À medida em que o usuário modifica o valor dos ranges com as teclas ← e → do
+teclado, a <div> deve refletir a cor correspondente.</p>

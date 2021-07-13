@@ -1,0 +1,109 @@
+body {
+  background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+  }
+
+  header,
+  main
+  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+ 
+  .cabecalho {
+    -ms-flex-item-align:center;
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: 1.5;
+    color:black;
+  }
+  
+  .cabecalho h1 {
+    font-weight: unset;
+    font-size: 25px;
+  }
+  
+  .cabecalho h2 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .titulo {
+    font-weight: unset;
+    text-align: center;
+    background-color: lightblue;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: black;
+  }
+  
+  .componente {
+    margin: 15px;
+    border: 1px solid  rgb(37, 163, 149);
+    border-radius: 5px;
+  }
+  
+  .controle {
+    margin: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .input-text {
+    width: 60px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .controle-range {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .range {
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 260px;
+  }
+  
+  .resultado {
+    border: 1px solid  rgb(37, 163, 149);
+    height: 122px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  #title-box {
+    border: 1px solid  rgb(37, 163, 149);
+    position: relative;
+    top: 65px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+  }
+   
+  em {font-style: italic;}
+  
+  .left {float: left;}
+
+ .footer {
+  text-align: center;
+  line-height: 3px;
+  padding: 3px;
+  color:black;
+  } 
+ .links {
+   display: inline-flex;
+   
+  }
